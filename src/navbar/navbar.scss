@@ -1,0 +1,43 @@
+@import 'sass/colors';
+
+.navbar {
+    background: $color-white;
+    border-bottom: 1px solid $color-alt;
+    display: flex;
+
+    .logo {
+        height: 32px;
+        padding: 1.0em;
+
+        svg {
+            height: 100%;
+        }
+    }
+
+    nav {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        padding: 0;
+    }
+
+    ul {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: flex-end;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        padding: 0;
+    }
+
+    a {
+        color: $color-dark;
+        margin: 0;
+        padding: 1.0em;
+    }
+}

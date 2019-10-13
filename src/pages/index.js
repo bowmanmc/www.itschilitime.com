@@ -8,10 +8,10 @@ import './index/index.scss';
 
 export default () => {
     return (
-        <>
+        <div className="index">
             <Header />
             <Largenav />
             <Footer />
-        </>
+        </div>
     )
 };

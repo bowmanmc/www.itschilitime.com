@@ -1,3 +1,4 @@
+@import './colors';
 @import './typography';
 
 @import './normalize';
@@ -5,8 +6,13 @@
 body {
     @include fontsize($fontsize-normal);
 
+    background: $color-gray-98;
     font-family: $fontstack-body;
     word-wrap: break-word;
+}
+
+html {
+    background: $color-dark;
 }
 
 h1, h2, h3, h4, h5, h6 {
