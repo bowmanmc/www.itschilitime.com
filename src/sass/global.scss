@@ -1,0 +1,34 @@
+@import './typography';
+
+@import './normalize';
+
+body {
+    @include fontsize($fontsize-normal);
+
+    font-family: $fontstack-body;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $fontstack-headings;
+    font-weight: $fontweight-bold;
+    margin: 0 0 0.5em 0;
+    text-transform: uppercase;
+}
+
+h1 {
+    @include fontsize($fontsize-xxl);
+}
+
+h2 {
+    @include fontsize($fontsize-xl);
+
+}
+
+h3 {
+    @include fontsize($fontsize-large);
+}
+
+a {
+    text-decoration: none;
+}

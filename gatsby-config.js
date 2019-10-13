@@ -5,5 +5,18 @@
  */
 
 module.exports = {
-  /* Your site config here */
-}
+    siteMetadata: {
+        siteUrl: `https://www.itschilitime.com`,
+    },
+    plugins: [
+        `gatsby-plugin-sass`,
+        `gatsby-plugin-sitemap`,
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+                trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+                head: false,
+            },
+        },
+    ],
+};

@@ -1,0 +1,123 @@
+@import '../../sass/colors';
+@import '../../sass/devices';
+@import '../../sass/typography';
+
+$trans: 1;
+$stripe1: $color-theme-green1;
+$stripe2: $color-theme-green2;
+$stripe3: $color-theme-green3;
+$headerbg: $color-white;
+
+$desktop-bgimage: linear-gradient(
+    45deg,
+    $headerbg 33%,
+    rgba($stripe1, $trans) 33%,
+    rgba($stripe1, $trans) 40%,
+    rgba($stripe2, $trans) 40%,
+    rgba($stripe2, $trans) 59%,
+    rgba($stripe3, $trans) 59%,
+    rgba($stripe3, $trans) 66%,
+    $headerbg 66%,
+    $headerbg 100%
+);
+
+$mobile-bgimage: linear-gradient(
+    90deg,
+    $headerbg 12%,
+    rgba($stripe1, $trans) 12%,
+    rgba($stripe1, $trans) 24%,
+    rgba($stripe2, $trans) 24%,
+    rgba($stripe2, $trans) 76%,
+    rgba($stripe3, $trans) 76%,
+    rgba($stripe3, $trans) 88%,
+    $headerbg 88%,
+    $headerbg 100%
+);
+
+.header {
+    align-items: center;
+    background: $headerbg;
+    background-image: $mobile-bgimage;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include desktop {
+        background-image: $desktop-bgimage;
+        flex-direction: row;
+    }
+
+    &__profile {
+        display: block;
+        flex-direction: column;
+        font-weight: $fontweight-bold;
+        padding: 0.5em;
+        text-align: center;
+        width: 90%;
+
+        @include desktop {
+            width: 33%;
+        }
+
+        img {
+            border: 0.66em solid $stripe2;
+            box-sizing: border-box;
+            border-radius: 50%;
+            display: block;
+            height: auto;
+            width: 100%;
+            margin: 0 auto;
+            max-height: 100%;
+            max-width: 512px;
+            min-width: 256px;
+        }
+    }
+
+    &__tagline {
+        @include fontsize($fontsize-large);
+
+        color: $color-gray-30;
+        flex: 1;
+        font-family: $fontstack-headings;
+        font-weight: $fontweight-bold;
+        padding: 0 1.0em 1.0em 1.0em;
+
+        @include tablet {
+            @include fontsize($fontsize-xl);
+            padding: 0.5em;
+        }
+        @include desktop {
+            @include fontsize($fontsize-xxl);
+            padding: 1.0em;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        span {
+            background: $color-white;
+        }
+
+        svg {
+            fill: $color-dark;
+            height: $fontsize-large;
+            width: $fontsize-large;
+
+            @include tablet {
+                height: $fontsize-xl;
+                width: $fontsize-xl;
+            }
+            @include desktop {
+                height: $fontsize-xxl;
+                width: $fontsize-xxl;
+            }
+        }
+
+        .highlight {
+            color: $color-dark;
+            text-transform: uppercase;
+        }
+    }
+}

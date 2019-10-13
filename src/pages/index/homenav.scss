@@ -1,0 +1,31 @@
+@import '../../sass/colors';
+@import '../../sass/devices';
+
+.homenav {
+    background: $color-dark;
+    display: flex;
+    flex-direction: column;
+
+    @include desktop {
+        flex-direction: row;
+    }
+
+    a {
+        border-left: 5px solid $color-alt;
+        color: $color-gray-98;
+        flex: 1;
+        margin: 2.0em;
+        padding: 1.0em;
+        text-decoration: none;
+
+        &:hover {
+            background: darken($color-dark, 5%);
+            color: $color-white;
+        }
+
+        h2, p {
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
