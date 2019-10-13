@@ -1,7 +1,7 @@
-@import '../../sass/colors';
-@import '../../sass/devices';
+@import 'sass/colors';
+@import 'sass/devices';
 
-.homenav {
+.largenav {
     background: $color-dark;
     display: flex;
     flex-direction: column;

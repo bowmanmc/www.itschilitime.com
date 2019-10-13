@@ -9,8 +9,13 @@ module.exports = {
         siteUrl: `https://www.itschilitime.com`,
     },
     plugins: [
-        `gatsby-plugin-sass`,
         `gatsby-plugin-sitemap`,
+        {
+            resolve: `gatsby-plugin-sass`,
+            options: {
+                includePaths: ["src"],
+            },
+        },
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {

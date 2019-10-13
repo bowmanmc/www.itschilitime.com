@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './homenav.scss';
+import './largenav.scss';
 
 export default () => {
     return (
-        <div className="homenav">
+        <div className="largenav">
             <a href="/resume">
                 <h2>Resume</h2>
                 <p>Check out my professional skills &amp; work history.</p>

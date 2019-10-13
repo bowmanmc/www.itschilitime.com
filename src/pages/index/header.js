@@ -12,7 +12,7 @@ export default () => {
             <div className="header__tagline">
                 <p><span>
                     Hi, I'm
-                    <span className="highlight"> Michael Bowman </span>,
+                    <span className="highlight"> Michael Bowman</span>,
                     a
                     <span className="highlight"> software engineer </span>
                     and

@@ -1,15 +1,17 @@
 import React from 'react';
 
+import Footer from '../footer';
 import Header from './index/header';
-import Homenav from './index/homenav';
+import Largenav from './index/largenav';
 
-import './index.scss';
+import './index/index.scss';
 
 export default () => {
     return (
         <>
             <Header />
-            <Homenav />
+            <Largenav />
+            <Footer />
         </>
     )
 };

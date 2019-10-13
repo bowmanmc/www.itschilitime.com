@@ -1,0 +1,91 @@
+@import 'sass/colors';
+@import 'sass/devices';
+@import 'sass/typography';
+
+
+.footer {
+    background: $color-dark;
+    color: $color-gray-98;
+    display: flex;
+    flex-direction: column;
+    padding: 1.0em;
+
+    @include fontsize($fontsize-normal);
+
+    @include desktop {
+        flex-direction: row;
+        padding: 8.0em 2.0em 1.0em 2.0em;
+    }
+
+    a {
+        color: $color-alt;
+
+        &:hover {
+            color: lighten($color-alt, 10%);
+        }
+    }
+
+    section {
+        flex: 1;
+        padding: 1.0em;
+
+        h3 {
+            @include fontsize($fontsize-large);
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0.5em 0;
+            padding: 0 0.25em;
+        }
+
+        li {
+            margin-bottom: 0.5em;
+        }
+    }
+
+    .branding {
+
+        .logo {
+            fill: $color-white;
+            width: 100%;
+
+            @include desktop {
+                width: 90%;
+            }
+        }
+
+        $social-icon-size: 32px;
+
+        .social {
+            margin: 1.0em 0;
+
+            a {
+                svg {
+                    fill: $color-alt;
+                }
+
+                &:first-child {
+                    svg {
+                        margin-left: 0;
+                    }
+                }
+
+                &:hover {
+                    svg {
+                        fill: lighten($color-alt, 10%);
+                    }
+                }
+            }
+
+            svg {
+                fill: $color-gray-90;
+                height: $social-icon-size;
+                margin: 0.5em;
+                width: $social-icon-size;
+            }
+        }
+    }
+}
