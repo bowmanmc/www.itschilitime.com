@@ -10,6 +10,14 @@ module.exports = {
     },
     plugins: [
         `gatsby-plugin-sitemap`,
+        `gatsby-transformer-remark`,
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `writing`,
+                path: `${__dirname}/src/writing`,
+            },
+        },
         {
             resolve: `gatsby-plugin-sass`,
             options: {
