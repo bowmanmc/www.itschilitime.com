@@ -10,7 +10,8 @@ module.exports = {
     },
     plugins: [
         `gatsby-plugin-sitemap`,
-        `gatsby-transformer-remark`,
+        //`gatsby-transformer-remark`,
+        `gatsby-plugin-mdx`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {

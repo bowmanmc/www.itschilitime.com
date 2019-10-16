@@ -3,8 +3,8 @@ const path = require(`path`);
 exports.createPages = async ({ actions, graphql }) => {
     const { createPage } = actions;
     const result = await graphql(`
-        {
-            allMarkdownRemark {
+        query {
+            allMdx {
                 edges {
                     node {
                         frontmatter {
@@ -20,7 +20,8 @@ exports.createPages = async ({ actions, graphql }) => {
         console.error(result.errors);
     }
 
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    result.data.allMdx.edges.forEach(({ node }) => {
+        console.log(`Creating page: ${node.frontmatter.path}`);
         createPage({
             path: node.frontmatter.path,
             component: path.resolve(`src/writing/template.js`),

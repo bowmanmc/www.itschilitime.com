@@ -1,26 +1,32 @@
 import React from 'react';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { graphql } from 'gatsby';
 
-export default function Template({ data }) {
-    const { markdownRemark } = data; // data.markdownRemark holds your post data
-    const { frontmatter, html } = markdownRemark;
+import Footer from '../footer';
+import Navbar from '../navbar';
+
+export default function Template({ data: { mdx } }) {
+    const { frontmatter, body } = mdx;
 
     return (
-        <div className="blog-post">
-            <h1>{frontmatter.title}</h1>
-            <h2>{frontmatter.date}</h2>
-            <div
-                className="blog-post-content"
-                dangerouslySetInnerHTML={{ __html: html }}
-            />
-        </div>
+        <>
+            <Navbar />
+
+            <div className="post">
+                <h1>{frontmatter.title}</h1>
+                <MDXRenderer>{ body }</MDXRenderer>
+            </div>
+
+            <Footer />
+        </>
     );
 };
 
 export const pageQuery = graphql`
     query($path: String!) {
-        markdownRemark(frontmatter: { path: { eq: $path } }) {
-            html
+        mdx(frontmatter: {path: {eq: $path}}) {
+            id
+            body
             frontmatter {
                 date(formatString: "MMMM DD, YYYY")
                 path
