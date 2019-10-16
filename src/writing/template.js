@@ -5,6 +5,8 @@ import { graphql } from 'gatsby';
 import Footer from '../footer';
 import Navbar from '../navbar';
 
+import './writing.scss';
+
 export default function Template({ data: { mdx } }) {
     const { frontmatter, body } = mdx;
 
@@ -12,7 +14,7 @@ export default function Template({ data: { mdx } }) {
         <>
             <Navbar />
 
-            <div className="post">
+            <div className="writing">
                 <h1>{frontmatter.title}</h1>
                 <MDXRenderer>{ body }</MDXRenderer>
             </div>
