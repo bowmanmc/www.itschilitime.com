@@ -6,7 +6,7 @@
 body {
     @include fontsize($fontsize-normal);
 
-    background: $color-gray-98;
+    background: $color-white;
     font-family: $fontstack-body;
     word-wrap: break-word;
 }

@@ -1,0 +1,18 @@
+
+.projects {
+    padding: 1.0em;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    .project {
+        border: 1px solid red;
+        border-radius: 1.0em;
+        height: 320px;
+        margin: 0.5em;
+        width: 240px;
+    }
+}
+
