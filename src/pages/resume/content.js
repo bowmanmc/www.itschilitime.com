@@ -5,46 +5,79 @@ import './content.scss';
 export default () => {
     return (
         <div className="resume content">
-            <div className="group">
-                <section>
-                    <h2>Summary</h2>
-                    <p>
-                        I am an experienced engineering manager,
-                        technical team lead, application architect,
-                        software engineer, and educator from Dayton, Ohio, with
-                        expertise in delivering web-based data visualization
-                        applications to a wide variety of commercial and
-                        government
-                        clients.
-                    </p>
-                    <p>
+            <section>
+                <h2>Summary</h2>
+                <p>
+                I am an experienced engineering manager,
+                technical team lead, application architect,
+                software engineer, and educator from Dayton, Ohio, with
+                expertise in delivering web-based data visualization
+                applications to a wide variety of commercial and
+                government clients.
+                </p>
+                <p>
+                Currently I'm a Director of Engineering at Mile Two,
+                a Dayton Ohio based custom application design
+                company, where I recruit, lead, and mentor the engineering
+                staff as well as lead the design, execution, and delivery of
+                software projects to delighted customers.
+                </p>
+                <p>
+                In addition to project work, I also manage the Mile Two
+                Internship Program, which offers recent graduates
+                in Computer Science, Visual Design, Human Factors
+                Engineering, and Cognitive Systems Engineering an
+                opportunity to work on a cross-functional project team
+                to build an internal  R&D application and prepare them to
+                transition into full-time roles with us.
+                </p>
+                <p>
+                Since 2014 I have taught evening Computer Science
+                courses at Sinclair Community College. I love helping students
+                take their first steps towards a career in computer programming
+                and am excited to see them entering the workforce.
+                </p>
+            </section>
 
-                        I am currently a Director of Engineering at Mile Two,
-                        where I recruits,
-                        leads, and mentors Mile Two’s engineering staff and
-                        manages
-                        the Mile Two internship program, which offers recent
-                        graduates
-                        and those new to the industry an opportunity to work on
-                        a
-                        cross-functional project team to build an internal
-                        application
-                        and prepare them to transition into full-time roles. In
-                        addition to working at Mile Two, Michael also teaches
-                        computer science courses at Sinclair Community College.
-                    </p>
-                </section>
+            <section className="skills">
+                <div>
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Engineering Management</li>
+                        <li>Project Management</li>
+                        <li>Technical Leadership</li>
+                        <li>Data Visualization</li>
+                        <li>Geospatial Application Development</li>
+                        <li>Software Architecture</li>
+                        <li>Web Application Development</li>
+                    </ul>
+                </div>
 
-                <section>
-                    <h2>Key Skills</h2>
-                    <p>
-                        Project Management, Technical Leadership, JavaScript,
-                        Data Visualization, Geospatial Applications, Web-based
-                        Applications, Open Source Software, User Interface
-                        Design, React, Sass, Docker
-                    </p>
-                </section>
-            </div>
+                <div>
+                    <h2>Tools</h2>
+                    <ul>
+                        <li>React</li>
+                        <li>Vue</li>
+                        <li>D3.js</li>
+                        <li>SVG</li>
+                        <li>React Testing Library</li>
+                        <li>Jest</li>
+                        <li>Node.js</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Sass</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+            </section>
 
             <section>
                 <h2>Experience</h2>
