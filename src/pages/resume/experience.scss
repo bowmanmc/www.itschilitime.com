@@ -1,0 +1,17 @@
+@import '../../sass/colors';
+
+.resume__experience {
+    margin-bottom: 2.0em;
+
+    h1, h2, h3, h4, h5 {
+        margin-bottom: 0;
+    }
+
+    h4, h5 {
+        color: $color-gray-40;
+    }
+
+    p {
+        margin: 0;
+    }
+}
