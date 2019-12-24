@@ -6,7 +6,11 @@
 .resume {
     @include fixedwidth();
 
-    .skills {
+    h2 {
+        margin-bottom: 0;
+    }
+
+    &__skills {
         display: flex;
         flex-direction: column;
 
@@ -16,7 +20,6 @@
 
         h2 {
             font-size: $fontsize-large;
-            margin-bottom: 0;
             line-height: $fontsize-large;
         }
 
@@ -43,4 +46,19 @@
             padding-left: 0;
         }
     }
+
+    &__education {
+        margin-bottom: 1.0em;
+
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+        h4 {
+            color: $color-gray-40;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
 }

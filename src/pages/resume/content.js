@@ -10,38 +10,38 @@ export default () => {
             <section>
                 <h2>Summary</h2>
                 <p>
-                I am an experienced engineering manager,
-                technical team lead, application architect,
-                software engineer, and educator from Dayton, Ohio, with
-                expertise in delivering web-based data visualization
-                applications to a wide variety of commercial and
-                government clients.
+                    I am an experienced engineering manager,
+                    technical team lead, application architect,
+                    software engineer, and educator from Dayton, Ohio, with
+                    expertise in delivering web-based data visualization
+                    applications to a wide variety of commercial and
+                    government clients.
                 </p>
                 <p>
-                Currently I'm a Director of Engineering at Mile Two,
-                a Dayton Ohio based custom application design
-                company, where I recruit, lead, and mentor the engineering
-                staff as well as lead the design, execution, and delivery of
-                software projects to delighted customers.
+                    Currently I'm a Director of Engineering at Mile Two,
+                    a Dayton Ohio based custom application design
+                    company, where I recruit, lead, and mentor the engineering
+                    staff as well as lead the design, execution, and delivery of
+                    software projects to delighted customers.
                 </p>
                 <p>
-                In addition to project work, I also manage the Mile Two
-                Internship Program, which offers recent graduates
-                in Computer Science, Visual Design, Human Factors
-                Engineering, and Cognitive Systems Engineering an
-                opportunity to work on a cross-functional project team
-                to build an internal  R&D application and prepare them to
-                transition into full-time roles with us.
+                    In addition to project work, I also manage the Mile Two
+                    Internship Program, which offers recent graduates
+                    in Computer Science, Visual Design, Human Factors
+                    Engineering, and Cognitive Systems Engineering an
+                    opportunity to work on a cross-functional project team
+                    to build an internal  R&D application and prepare them to
+                    transition into full-time roles with us.
                 </p>
                 <p>
-                Since 2014 I have taught evening Computer Science
-                courses at Sinclair Community College. I love helping students
-                take their first steps towards a career in computer programming
-                and am excited to see them entering the workforce.
+                    Since 2014 I have taught evening Computer Science
+                    courses at Sinclair Community College. I love helping students
+                    take their first steps towards a career in computer programming
+                    and am excited to see them entering the workforce.
                 </p>
             </section>
 
-            <section className="skills">
+            <section className="resume__skills">
                 <div>
                     <h2>Skills</h2>
                     <ul>
@@ -73,10 +73,9 @@ export default () => {
                     <h2>Languages</h2>
                     <ul>
                         <li>JavaScript</li>
-                        <li>Sass</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
                         <li>Python</li>
+                        <li>HTML</li>
+                        <li>SASS/CSS</li>
                     </ul>
                 </div>
             </section>
@@ -90,12 +89,12 @@ export default () => {
                     end="Present"
                     description={`
 Helped grow the company from a team of eight into an organization
-of over fifty people. 
+of over fifty people.
 Set technical direction for the engineering staff and helped foster
 a culture of continuous learning and improvement.
 Created and ran the Mile Two Internship
 Program, bringing in entry-level developers and leveling them up
-to high-performing software engineers. 
+to high-performing software engineers.
 Served as Technical Team
 Lead for several successful projects for both Commercial and
 Department of Defense customers.
@@ -126,7 +125,7 @@ helping set the direction for curriculum and program updates.
                     start="January 2014"
                     end="September 2017"
                     description={`
-Technical Team Lead and 
+Technical Team Lead and
 Principal Software Engineer for
 several contracts for the National Geospatial-Intelligence
 Agency (NGA) and the National Air and Space Intelligence Center
@@ -194,12 +193,12 @@ leading to higher quality software developed faster.
                     start="March 2006"
                     end="March 2007"
                     description={`
-Developed several of the Engyro non-Windows monitoring agents 
-for Microsoft's System Center Operations Manager, allowing 
-customers to monitor their Linux/Unix servers and software 
-(such as Apache HTTPD and Oracle DBMS) alongside their Microsoft 
-assets. Worked in a very dynamic environment where schedules and 
-features were constantly changing based upon customer feedback 
+Developed several of the Engyro non-Windows monitoring agents
+for Microsoft's System Center Operations Manager, allowing
+customers to monitor their Linux/Unix servers and software
+(such as Apache HTTPD and Oracle DBMS) alongside their Microsoft
+assets. Worked in a very dynamic environment where schedules and
+features were constantly changing based upon customer feedback
 and needs.  Engyro was acquired by Microsoft in March 2007.
                     `}
                 />
@@ -210,14 +209,14 @@ and needs.  Engyro was acquired by Microsoft in March 2007.
                     start="August 2004"
                     end="March 2006"
                     description={`
-Worked on the Red Hat Network Satellite Server product helping to 
-deliver bug fixes and new features to customers on a tight release 
-schedule. I worked on the server-side team, responsible for developing 
-the web interface and APIs to allow system administrators to update 
-and manage a large network of Red Hat Linux machines easily. Day to 
-day activities consisted of writing code for the Java based web 
-application, documenting code and best practices, writing test plans, 
-preparing level of effort time estimates for project management, and 
+Worked on the Red Hat Network Satellite Server product helping to
+deliver bug fixes and new features to customers on a tight release
+schedule. I worked on the server-side team, responsible for developing
+the web interface and APIs to allow system administrators to update
+and manage a large network of Red Hat Linux machines easily. Day to
+day activities consisted of writing code for the Java based web
+application, documenting code and best practices, writing test plans,
+preparing level of effort time estimates for project management, and
 helping team members debug code.
                     `}
                 />
@@ -234,14 +233,14 @@ Developed and maintained corporate intranet site.
             </section>
 
             <section>
-                <h2>Education and Certifications</h2>
+                <h2>Education</h2>
                 <div className="resume__education">
                     <h3>Master of Science, Computer Science</h3>
-                    <h4>Wright State University - May 2013</h4>
+                    <h4>Wright State University - 2013</h4>
                 </div>
                 <div className="resume__education">
                     <h3>Bachelor of Science, Computer Science</h3>
-                    <h4>Miami University - May 2004</h4>
+                    <h4>Miami University - 2004</h4>
                 </div>
             </section>
         </div>
