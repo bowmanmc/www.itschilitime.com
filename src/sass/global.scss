@@ -36,9 +36,9 @@ h3 {
 }
 
 a {
-    text-decoration: none;
+    color: $color-dark;
 
     &:hover {
-        text-decoration: none;
+        color: $color-alt;
     }
 }

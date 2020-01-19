@@ -1,3 +1,6 @@
+@import 'sass/colors';
+@import 'sass/devices';
+@import 'sass/typography';
 
 .projects {
     padding: 1.0em;
@@ -5,14 +8,57 @@
 
 .projects-list {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    padding-bottom: 3.0em;
 
     .project {
-        border: 1px solid red;
-        border-radius: 1.0em;
-        height: 320px;
-        margin: 0.5em;
-        width: 240px;
+        border: 1px solid $color-alt;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin: 0 0 2.0em 0;
+
+        @include desktop {
+            flex-direction: row;
+        }
+
+        &__preview {
+            background: $color-dark;
+            background-position: top left;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom: 1px solid $color-alt;
+            border-right: none;
+            flex: 1;
+            min-height: 256px;
+
+            @include desktop {
+                border-bottom: none;
+                border-right: 1px solid $color-alt;
+                min-height: 512px;
+                max-width: 768px;
+                width: 33%;
+            }
+        }
+
+        &__info {
+            flex: 1;
+            padding: 0 1.0em 1.0em 1.0em;
+        }
+
+        &__links {
+            list-style: none;
+            padding-left: 0;
+
+            a {
+                font-weight: $fontweight-bold;
+            }
+
+            li {
+                margin-bottom: 0.5em;
+            }
+        }
     }
 }
 
