@@ -1,9 +1,35 @@
 @import 'sass/colors';
+@import 'sass/devices';
+@import 'sass/typography';
+
+$trans: 1;
+$stripe1: $color-theme-green1;
+$stripe2: $color-theme-green2;
+$stripe3: $color-theme-green3;
+$headerbg: $color-white;
+
+$desktop-bgimage: linear-gradient(
+    45deg,
+    $headerbg 33%,
+    rgba($stripe1, $trans) 33%,
+    rgba($stripe1, $trans) 40%,
+    rgba($stripe2, $trans) 40%,
+    rgba($stripe2, $trans) 59%,
+    rgba($stripe3, $trans) 59%,
+    rgba($stripe3, $trans) 66%,
+    $headerbg 66%,
+    $headerbg 100%
+);
 
 .navbar {
     background: $color-white;
+    background-image: none;
     border-bottom: 1px solid $color-alt;
     display: flex;
+
+    @include desktop {
+        background-image: $desktop-bgimage;
+    }
 
     .logo {
         height: 32px;
@@ -11,6 +37,7 @@
 
         svg {
             height: 100%;
+            fill: $color-dark;
         }
     }
 
@@ -37,6 +64,7 @@
 
     a {
         color: $color-dark;
+        font-weight: $fontweight-bold;
         margin: 0;
         padding: 1.0em;
     }
