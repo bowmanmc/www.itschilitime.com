@@ -35,10 +35,15 @@ export default [{
     `
 }, {
     name: "Dayton Data Visualization",
-    date: "2016 - 2018",
+    date: "2014 - 2018",
     preview: 'preview-ddv.png',
     links: [],
     description: `
+        I founded and led the Dayton Data Visualization meetup from 2014 until 2018. Running a meetup
+        was a great experience where I learned a ton about Data Visualization and made lots of
+        new friends. Also, it was a lot of setting up chairs, coordinating food deliveries, and
+        finding people to volunteer their free time to come and speak at my event. It was fun,
+        but is currently on hiatus.
     `
 }, {
     name: "Americons",
@@ -47,8 +52,12 @@ export default [{
     links: [{
         url: 'https://americons.us',
         title: 'Americons Website'
+    }, {
+        url: 'https://github.com/bowmanmc/americons',
+        title: 'Americons Source Code'
     }],
     description: `
-        description for americons goes here.
+        Americons is like FontAwesome for US state boundaries. You can use it just like
+        an icon font, or you can download the SVGs and make your own spritesheet.
     `
 }];
