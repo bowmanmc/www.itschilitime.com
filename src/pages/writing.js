@@ -10,16 +10,16 @@ export default ({ data }) => {
         <>
             <Navbar />
             <div className="posts">
-            {
-                edges.map(edge => {
-                    const post = edge.node;
-                    return (
-                        <div className="post" key={post.frontmatter.path}>
-                            {post.frontmatter.title}
-                        </div>
-                    );
-                })
-            }
+                {
+                    edges.map(edge => {
+                        const post = edge.node;
+                        return (
+                            <div className="post" key={post.frontmatter.path}>
+                                {post.frontmatter.title}
+                            </div>
+                        );
+                    })
+                }
             </div>
             <Footer />
         </>
@@ -35,6 +35,7 @@ export const pageQuery = graphql`
                         title
                         date
                         path
+                        desc
                     }
                 }
             }

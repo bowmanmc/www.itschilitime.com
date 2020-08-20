@@ -16,7 +16,7 @@ export default function Template({ data: { mdx } }) {
 
             <div className="writing">
                 <h1>{frontmatter.title}</h1>
-                <MDXRenderer>{ body }</MDXRenderer>
+                <MDXRenderer>{body}</MDXRenderer>
             </div>
 
             <Footer />
@@ -33,6 +33,7 @@ export const pageQuery = graphql`
                 date(formatString: "MMMM DD, YYYY")
                 path
                 title
+                desc
             }
         }
     }

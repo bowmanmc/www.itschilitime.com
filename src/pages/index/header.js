@@ -6,7 +6,7 @@ export default () => {
     return (
         <header className="header">
             <div className="header__profile">
-                <img src="/images/michael-01.jpg" alt="Michael Bowman"/>
+                <img src="/images/michael-02.jpg" alt="Michael Bowman"/>
             </div>
 
             <div className="header__tagline">
