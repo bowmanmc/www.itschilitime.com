@@ -3,10 +3,10 @@ import React from 'react';
 import Footer from '../footer';
 import Navbar from '../navbar';
 
-import Project from './projects/project';
-import Projects from './projects/descriptions';
+import Project from '../components/projects/project';
+import Projects from '../components/projects/descriptions';
 
-import './projects/projects.scss';
+import '../components/projects/projects.scss';
 
 export default () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Content from './resume/content';
+import Content from '../components/resume/content';
 import Footer from '../footer';
 import Navbar from '../navbar';
 

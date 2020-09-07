@@ -5,6 +5,7 @@
     background: $color-dark;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     @include desktop {
         flex-direction: row;
@@ -15,6 +16,7 @@
         color: $color-gray-98;
         flex: 1;
         margin: 2.0em;
+        max-width: 300px;
         padding: 1.0em;
         text-decoration: none;
 
