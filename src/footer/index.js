@@ -57,7 +57,7 @@ export default () => {
                 <ul>
                     <li><Link to="/resume">Resume</Link></li>
                     <li><Link to="/projects">Projects</Link></li>
-                    {/* <li><Link to="/writing">Writing</Link></li> */}
+                    <li><Link to="/writing">Writing</Link></li>
                 </ul>
             </section>
 
