@@ -15,7 +15,7 @@ export default ({ data }) => {
                         const post = edge.node;
                         return (
                             <div className="post" key={post.frontmatter.path}>
-                                {post.frontmatter.title}
+                                <a href={post.frontmatter.path}>{post.frontmatter.title}</a>
                             </div>
                         );
                     })

@@ -8,14 +8,13 @@ import Navbar from '../navbar';
 import './writing.scss';
 
 export default function Template({ data: { mdx } }) {
-    const { frontmatter, body } = mdx;
+    const { body } = mdx;
 
     return (
         <>
             <Navbar />
 
             <div className="writing">
-                <h1>{frontmatter.title}</h1>
                 <MDXRenderer>{body}</MDXRenderer>
             </div>
 
