@@ -24,7 +24,7 @@ exports.createPages = async ({ actions, graphql }) => {
         console.log(`Creating page: ${node.frontmatter.path}`);
         createPage({
             path: node.frontmatter.path,
-            component: path.resolve(`src/components/writing/template.js`),
+            component: path.resolve(`src/components/writing/PostTemplate.js`),
         });
     });
 };

@@ -4,7 +4,8 @@
 .Hipshot {
     @include fontsize($fontsize-small);
     border: 5px solid $color-white;
-    box-shadow: 0 0 0.5em $color-gray-75;
+    box-shadow: 0 0 1.0em $color-gray-80;
+    margin: 3.0em 0;
     text-align: left;
 
     img {
