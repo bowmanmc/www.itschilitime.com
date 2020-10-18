@@ -33,9 +33,7 @@ export const pageQuery = graphql`
                 node {
                     frontmatter {
                         title
-                        date
                         path
-                        desc
                     }
                 }
             }

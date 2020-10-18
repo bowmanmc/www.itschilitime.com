@@ -2,8 +2,8 @@ import React from 'react';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { graphql } from 'gatsby';
 
-import Footer from '../footer';
-import Navbar from '../navbar';
+import Footer from '../../footer';
+import Navbar from '../../navbar';
 
 import './writing.scss';
 
@@ -29,10 +29,8 @@ export const pageQuery = graphql`
             id
             body
             frontmatter {
-                date(formatString: "MMMM DD, YYYY")
                 path
                 title
-                desc
             }
         }
     }
