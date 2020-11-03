@@ -2,7 +2,7 @@ import React from 'react';
 
 import './PostHeader.scss';
 
-export default ({children, date, title}) => {
+export default ({date, title}) => {
     return (
         <div className="PostHeader">
             <h1>{title}</h1>
