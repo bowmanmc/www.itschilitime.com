@@ -2,20 +2,19 @@ import React from 'react';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { graphql } from 'gatsby';
 
-import Footer from '../footer';
-import Navbar from '../navbar';
+import Footer from '../../footer';
+import Navbar from '../../navbar';
 
-import './writing.scss';
+import './PostTemplate.scss';
 
 export default function Template({ data: { mdx } }) {
-    const { frontmatter, body } = mdx;
+    const { body } = mdx;
 
     return (
         <>
             <Navbar />
 
-            <div className="writing">
-                <h1>{frontmatter.title}</h1>
+            <div className="Post">
                 <MDXRenderer>{body}</MDXRenderer>
             </div>
 
@@ -30,10 +29,8 @@ export const pageQuery = graphql`
             id
             body
             frontmatter {
-                date(formatString: "MMMM DD, YYYY")
                 path
                 title
-                desc
             }
         }
     }

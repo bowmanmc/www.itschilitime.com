@@ -3,20 +3,26 @@ import { graphql } from 'gatsby';
 
 import Footer from '../footer';
 import Navbar from '../navbar';
+import PostLinkCard from '../components/writing/PostLinkCard';
+
+import '../components/writing/writing.scss';
+
 
 export default ({ data }) => {
     const { edges } = data.allMdx;
     return (
         <>
             <Navbar />
-            <div className="posts">
+            <div className="writing">
                 {
                     edges.map(edge => {
                         const post = edge.node;
                         return (
-                            <div className="post" key={post.frontmatter.path}>
-                                {post.frontmatter.title}
-                            </div>
+                            <PostLinkCard
+                                link={post.frontmatter.path}
+                                title={post.frontmatter.title}
+                                cover={post.frontmatter.cover}
+                            />
                         );
                     })
                 }
@@ -33,9 +39,8 @@ export const pageQuery = graphql`
                 node {
                     frontmatter {
                         title
-                        date
                         path
-                        desc
+                        cover
                     }
                 }
             }

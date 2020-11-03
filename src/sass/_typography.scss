@@ -19,5 +19,5 @@ $fontsize-xxl: 72px;
 
 @mixin fontsize($base) {
     font-size: $base;
-    line-height: $base * 1.45;
+    line-height: $base * 1.35;
 }

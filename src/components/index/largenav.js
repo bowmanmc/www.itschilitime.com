@@ -16,10 +16,10 @@ export default () => {
                 <p>See what I've been spending my free time on lately.</p>
             </Link>
 
-            {/* <Link to="/writing">
+            <Link to="/writing">
                 <h2>Writing</h2>
                 <p>Brainwave transmissions from me to you.</p>
-            </Link> */}
+            </Link>
         </div>
     );
 };
