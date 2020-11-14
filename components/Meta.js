@@ -21,7 +21,7 @@ const Meta = ({ children, title, description, url, image }) => {
             <meta property="og:title" content={title} />
             <meta property="og:url" content={url} />
             <meta property="og:description" content={description} />
-            <meta property="og:image" content={img} />
+            <meta property="og:image" content={`https://www.itschilitime.com${img}`} />
             <meta name="twitter:image:alt" content={title} />
             <meta name="twitter:card" content="summary_large_image" />
 
