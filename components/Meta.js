@@ -22,8 +22,8 @@ const Meta = ({ children, title, description, url, image }) => {
             <meta property="og:url" content={url} />
             <meta property="og:description" content={description} />
             <meta property="og:image" content={img} />
-            <meta name="twitter:card" content={img} />
             <meta name="twitter:image:alt" content={title} />
+            <meta name="twitter:card" content="summary_large_image" />
 
             <title>{pageTitle}</title>
 
