@@ -1,0 +1,15 @@
+@import '../vars/typography';
+
+.PostLayout {
+    margin: 0 auto;
+    max-width: 768px;
+    padding: 0 1.0em 2.0em 1.0em;
+
+    h2 {
+        @include fontsize($fontsize-large);
+    }
+
+    img {
+        max-width: 100%;
+    }
+}

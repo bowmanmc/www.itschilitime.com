@@ -1,37 +1,27 @@
 {
   "name": "www.itschilitime.com",
-  "private": true,
-  "description": "Gatsby based website for Michael Bowman",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,scss,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start"
   },
   "dependencies": {
-    "@mdx-js/mdx": "^1.6.16",
-    "@mdx-js/react": "^1.6.16",
-    "gatsby": "^2.24.54",
-    "gatsby-plugin-google-analytics": "^2.3.13",
-    "gatsby-plugin-mdx": "^1.2.38",
-    "gatsby-plugin-sass": "^2.3.12",
-    "gatsby-plugin-sitemap": "^2.4.12",
-    "gatsby-source-filesystem": "^2.3.28",
-    "gatsby-transformer-remark": "^2.8.33",
-    "node-sass": "^4.14.1",
-    "prettier": "^2.1.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "@mdx-js/loader": "^1.6.19",
+    "@next/mdx": "^10.0.1",
+    "classnames": "2.2.6",
+    "date-fns": "2.10.0",
+    "dayjs": "^1.9.6",
+    "gray-matter": "4.0.2",
+    "next": "latest",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "remark": "11.0.2",
+    "remark-html": "10.0.0",
+    "sass": "^1.28.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "devDependencies": {
+    "postcss-preset-env": "^6.7.0"
   }
 }

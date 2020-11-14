@@ -1,0 +1,112 @@
+@import '../vars/colors';
+@import '../vars/devices';
+@import '../vars/typography';
+
+$trans: 1;
+$stripe1: $color-theme-green1;
+$stripe2: $color-theme-green2;
+$stripe3: $color-theme-green3;
+$headerbg: $color-white;
+
+$desktop-bgimage: linear-gradient(
+    45deg,
+    $headerbg 33%,
+    rgba($stripe1, $trans) 33%,
+    rgba($stripe1, $trans) 40%,
+    rgba($stripe2, $trans) 40%,
+    rgba($stripe2, $trans) 59%,
+    rgba($stripe3, $trans) 59%,
+    rgba($stripe3, $trans) 66%,
+    $headerbg 66%,
+    $headerbg 100%
+);
+
+$mobile-bgimage: linear-gradient(
+    45deg,
+    rgba($color-dark, $trans) 0%,
+    rgba($color-dark, $trans) 27%,
+    rgba($stripe2, $trans) 27%,
+    rgba($stripe2, $trans) 30%,
+    rgba($stripe3, $trans) 30%,
+    rgba($stripe3, $trans) 33%,
+    $headerbg 33%,
+    $headerbg 100%
+);
+
+.Navbar {
+    background: $color-white;
+    background-image: $mobile-bgimage;
+    border-bottom: 1px solid $color-alt;
+    display: flex;
+
+    @include desktop {
+        background-image: $desktop-bgimage;
+    }
+
+    .logo {
+        cursor: pointer;
+        height: 32px;
+        padding: 1.0em;
+
+        svg {
+            height: 100%;
+        }
+    }
+
+    .logo-name {
+        display: none;
+        fill: $color-dark;
+
+        @include desktop {
+            display: inline-block;
+        }
+    }
+
+    .logo-head {
+        display: inline-block;
+        fill: $color-white;
+
+        @include desktop {
+            display: none;
+        }
+    }
+
+    nav {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        padding: 0;
+
+        @include desktop {
+            display: flex;
+        }
+    }
+
+    ul {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: flex-end;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        padding: 0;
+    }
+
+    a {
+        color: $color-dark;
+        font-size: $fontsize-small;
+        font-weight: $fontweight-bold;
+        margin: 0;
+        padding: 0.5em;
+        text-decoration: none;
+
+        @include desktop {
+            font-size: $fontsize-normal;
+            padding: 1.0em;
+        }
+    }
+}

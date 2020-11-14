@@ -1,0 +1,34 @@
+@import '../vars/colors';
+@import '../vars/devices';
+
+.IndexNav {
+    background: $color-dark;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include desktop {
+        flex-direction: row;
+    }
+
+    span {
+        border-left: 5px solid $color-alt;
+        color: $color-gray-98;
+        cursor: pointer;
+        flex: 1;
+        margin: 2.0em;
+        max-width: 300px;
+        padding: 1.0em;
+        text-decoration: none;
+
+        &:hover {
+            background: darken($color-dark, 5%);
+            color: $color-white;
+        }
+
+        h2, p {
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

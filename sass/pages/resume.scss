@@ -1,0 +1,65 @@
+@import '../vars/colors';
+@import '../vars/devices';
+@import '../vars/layout';
+@import '../vars/typography';
+
+
+.Resume {
+    @include fixedwidth();
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    &__skills {
+        display: flex;
+        flex-direction: column;
+
+        @include desktop {
+            flex-direction: row;
+        }
+
+        h2 {
+            font-size: $fontsize-large;
+            line-height: $fontsize-large;
+        }
+
+        div {
+            flex: 1;
+            margin-bottom: 1.0em;
+            padding: 0;
+
+            @include desktop {
+                padding: 0 1.0em;
+
+                &:first-child {
+                    padding-left: 0;
+                }
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+        }
+
+        ul {
+            list-style: none;
+            margin: 0.25em 0;
+            padding-left: 0;
+        }
+    }
+
+    &__education {
+        margin-bottom: 1.0em;
+
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+        h4 {
+            color: $color-gray-40;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+}

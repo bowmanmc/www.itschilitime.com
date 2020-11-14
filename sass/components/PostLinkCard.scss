@@ -1,0 +1,34 @@
+@import '../vars/colors';
+@import '../vars/devices';
+@import '../vars/typography';
+
+.PostLinkCard {
+    border: 1px solid $color-gray-50;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+    width: auto;
+
+    @include desktop {
+        width: 320px;
+    }
+
+    &__cover {
+        background: $color-primary;
+        background-position: center center;
+        background-repeat:no-repeat;
+        background-size: cover;
+        flex: 1;
+        min-height: 256px;
+    }
+
+    &__title {
+        padding: 0.5em 1.0em;
+
+        a {
+            font-weight: $fontweight-bold;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}
