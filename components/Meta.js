@@ -18,10 +18,17 @@ const Meta = ({ children, title, description, url, image }) => {
             <meta name="theme-color" content="#ffffff" />
 
             <meta property="og:site_name" content="Chilitime Design" />
+            <meta property="og:type" content="website" />
+            <meta name="title" content={title} />
             <meta property="og:title" content={title} />
+            <meta property="twitter:title" content={title} />
             <meta property="og:url" content={url} />
+            <meta property="twitter:url" content={url} />
             <meta property="og:description" content={description} />
+            <meta name="description" content={description} />
+            <meta property="twitter:description" content={description} />
             <meta property="og:image" content={`https://www.itschilitime.com${img}`} />
+            <meta name="twitter:image" content={`https://www.itschilitime.com${img}`} />
             <meta name="twitter:image:alt" content={title} />
             <meta name="twitter:card" content="summary_large_image" />
 
