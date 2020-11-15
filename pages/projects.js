@@ -13,7 +13,7 @@ const projects = () => {
             <Meta
                 title="Chilitime Design : Projects"
                 url="https://www.itschilitime.com/projects"
-                description="Projects that I've been spending my free time on lately."
+                description="Side Projects and fun stuff from Michael Bowman, a software engineer and educator from Dayton, Ohio."
             />
             <Navbar />
             <div className="Projects">

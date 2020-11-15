@@ -11,7 +11,7 @@ const writing = () => {
             <Meta
                 title="Chilitime Design : Writing"
                 url="https://www.itschilitime.com/writing"
-                description="Brainwave transmissions from Michael Bowman, Dayton Ohio."
+                description="Brainwave transmissions from Michael Bowman, a software engineer and educator from Dayton, Ohio."
             />
             <Navbar />
             <div className="writing">

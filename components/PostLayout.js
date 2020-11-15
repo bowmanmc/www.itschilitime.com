@@ -11,7 +11,7 @@ const PostLayout = ({ children, meta}) => {
                 title={`Chilitime Design : ${meta.title}`}
                 url={`https://www.itschilitime.com/${meta.path}`}
                 image={meta.cover}
-                description={meta.title}
+                description={meta.description}
             />
 
             <Navbar />

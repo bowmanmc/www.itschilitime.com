@@ -10,7 +10,7 @@ const resume = () => {
             <Meta
                 title="Michael Bowman - Resume"
                 url="https://www.itschilitime.com/resume"
-                description="Professional skills and work history for Michael Bowman"
+                description="Professional skills and work history for Michael Bowman, a software engineer and educator from Dayton, Ohio."
             />
             <Navbar />
             <div className="Resume">

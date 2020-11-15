@@ -11,7 +11,7 @@ const index = () => {
             <Meta
                 title="Chilitime Design : Home Page"
                 url="https://www.itschilitime.com"
-                description="Welcome to Chilitime Design by Michael Bowman."
+                description="Welcome to Chilitime Design by Michael Bowman, a software engineer and educator from Dayton, Ohio."
             />
             <IndexHeader />
             <IndexNav />
