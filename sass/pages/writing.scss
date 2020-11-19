@@ -1,9 +1,13 @@
 @import '../vars/devices';
 
 .writing {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding: 1.0em 0;
 
     @include desktop {
+        flex-direction: row;
         padding: 1.0em 0 7.0em 0;
     }
 }

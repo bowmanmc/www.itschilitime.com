@@ -1,0 +1,9 @@
+@import '../vars/colors';
+@import '../vars/typography';
+
+.Playlists {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1.0em 0;
+}

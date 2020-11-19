@@ -10,7 +10,7 @@
     width: auto;
 
     @include desktop {
-        width: 320px;
+        width: 350px;
     }
 
     &__cover {
@@ -19,6 +19,7 @@
         background-repeat:no-repeat;
         background-size: cover;
         flex: 1;
+        height: 256px;
         min-height: 256px;
     }
 

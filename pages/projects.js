@@ -11,7 +11,7 @@ const projects = () => {
     return (
         <>
             <Meta
-                title="Chilitime Design : Projects"
+                title="Michael Bowman : Projects"
                 url="https://www.itschilitime.com/projects"
                 description="Side Projects and fun stuff from Michael Bowman, a software engineer and educator from Dayton, Ohio."
             />

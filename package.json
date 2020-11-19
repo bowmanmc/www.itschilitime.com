@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
+    "start": "next",
     "build": "next build && next export",
-    "start": "next start"
+    "serve": "next start"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.19",

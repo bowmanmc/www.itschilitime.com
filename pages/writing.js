@@ -9,7 +9,7 @@ const writing = () => {
     return (
         <>
             <Meta
-                title="Chilitime Design : Writing"
+                title="Michael Bowman : Writing"
                 url="https://www.itschilitime.com/writing"
                 description="Brainwave transmissions from Michael Bowman, a software engineer and educator from Dayton, Ohio."
             />
