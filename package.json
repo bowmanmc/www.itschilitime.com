@@ -8,6 +8,7 @@
     "serve": "next start"
   },
   "dependencies": {
+    "@babel/core": "^7.12.3",
     "@mdx-js/loader": "^1.6.19",
     "@next/mdx": "^10.0.1",
     "classnames": "2.2.6",
