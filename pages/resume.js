@@ -25,7 +25,7 @@ const resume = () => {
                         government clients.
                     </p>
                     <p>
-                        Currently I'm a Director of Engineering at Mile Two,
+                        Currently I'm the Director of Engineering at Mile Two,
                         a Dayton Ohio based custom application design
                         company, where I recruit, lead, and mentor the engineering
                         staff as well as lead the design, execution, and delivery of
@@ -65,6 +65,7 @@ const resume = () => {
                     <div>
                         <h2>Tools</h2>
                         <ul>
+                            <li>Next.js</li>
                             <li>React</li>
                             <li>Vue</li>
                             <li>D3.js</li>
@@ -79,7 +80,7 @@ const resume = () => {
                     <div>
                         <h2>Languages</h2>
                         <ul>
-                            <li>JavaScript</li>
+                            <li>JavaScript/TypeScript</li>
                             <li>Python</li>
                             <li>HTML</li>
                             <li>SASS/CSS</li>
@@ -96,7 +97,7 @@ const resume = () => {
                         end="Present"
                         description={`
     Helped grow the company from a team of eight into an organization
-    of over fifty people.
+    of over one hundred and twenty people.
     Set technical direction for the engineering staff and helped foster
     a culture of continuous learning and improvement.
     Created and ran the Mile Two Internship
