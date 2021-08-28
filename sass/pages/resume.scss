@@ -46,19 +46,29 @@
             margin: 0.25em 0;
             padding-left: 0;
         }
+
+        li {
+            margin-bottom: 0.35em;
+        }
     }
 
-    &__education {
+    &__community, &__education {
         margin-bottom: 1.0em;
 
-        h3 {
-            margin: 0;
-            padding: 0;
+        div {
+            margin-bottom: 1.0em;
         }
+
+        h3, h4 {
+            margin: 0;
+        }
+
         h4 {
             color: $color-gray-40;
-            margin: 0;
-            padding: 0;
+        }
+
+        p {
+            margin-top: 0;
         }
     }
 

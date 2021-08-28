@@ -19,32 +19,36 @@ const resume = () => {
                     <p>
                         I am an experienced engineering manager,
                         technical team lead, application architect,
-                        software engineer, and educator from Dayton, Ohio, with
+                        fullstack software engineer, and educator from Dayton, Ohio, with
                         expertise in delivering web-based data visualization
                         applications to a wide variety of commercial and
-                        government clients.
+                        government clients. I’m passionate about growing
+                        high performing engineering teams to enable companies to deliver
+                        the applications of the future.
                     </p>
                     <p>
-                        Currently I'm the Director of Engineering at Mile Two,
-                        a Dayton Ohio based custom application design
-                        company, where I recruit, lead, and mentor the engineering
-                        staff as well as lead the design, execution, and delivery of
-                        software projects to delighted customers.
+                        For the last four years, I’ve worked at Mile Two, a young custom software
+                        design and development company.
+                        Currently, I am responsible for recruiting, leading, and mentoring
+                        a staff of over twenty five, overseeing the execution of
+                        ten project teams totaling over $5m in revenue.
                     </p>
                     <p>
-                        In addition to project work, I also manage the Mile Two
-                        Internship Program, which offers recent graduates
-                        in Computer Science, Visual Design, Human Factors
-                        Engineering, and Cognitive Systems Engineering an
-                        opportunity to work on a cross-functional project team
-                        to build an internal  R&D application and prepare them to
-                        transition into full-time roles with us.
+                        To help facilitate Mile Two’s rapid growth,
+                        I created the Mile Two Internship Program, building it over the last four years
+                        into one of the top internship programs in the Dayton area.
+                        I set up the program so that our interns work on a cross-functional team,
+                        participating in the full Software Development Life Cycle while building an internal
+                        R&amp;D application alongside our experienced staff.
+                        To date, we’ve brought thirty two interns through the program and offering full time
+                        positions to nineteen of them.
                     </p>
                     <p>
                         Since 2014 I have taught evening Computer Science
                         courses at Sinclair Community College. I love helping students
                         take their first steps towards a career in computer programming
-                        and am excited to see them entering the workforce.
+                        and am excited to see them entering the workforce
+                        (and have even had the pleasure of hiring a few of them).
                     </p>
                 </section>
 
@@ -70,7 +74,6 @@ const resume = () => {
                             <li>Vue</li>
                             <li>D3.js</li>
                             <li>SVG</li>
-                            <li>React Testing Library</li>
                             <li>Jest</li>
                             <li>Node.js</li>
                             <li>Docker</li>
@@ -81,9 +84,11 @@ const resume = () => {
                         <h2>Languages</h2>
                         <ul>
                             <li>JavaScript/TypeScript</li>
-                            <li>Python</li>
-                            <li>HTML</li>
                             <li>SASS/CSS</li>
+                            <li>HTML</li>
+                            <li>Python</li>
+                            <li>C++</li>
+
                         </ul>
                     </div>
                 </section>
@@ -92,20 +97,26 @@ const resume = () => {
                     <h2>Experience</h2>
                     <ResumeExperience
                         company="Mile Two"
-                        title="Director of Engineering"
+                        title="Portfolio Director"
                         start="September 2017"
                         end="Present"
                         description={`
-    Helped grow the company from a team of eight into an organization
-    of over one hundred and twenty people.
-    Set technical direction for the engineering staff and helped foster
-    a culture of continuous learning and improvement.
-    Created and ran the Mile Two Internship
-    Program, bringing in entry-level developers and leveling them up
-    to high-performing software engineers.
-    Served as Technical Team
-    Lead for several successful projects for both Commercial and
-    Department of Defense customers.
+                        Helped grow the company from a rag-tag team of eight into an
+                        organization of over one hundred and twenty people.
+                        Led a portfolio consisting of over ten project teams working on
+                        various commercial and government contracts totaling over $5m in revenue.
+                        Managed a portfolio team consisting of over twenty staff members
+                        of varying roles including Project Leads, Software Engineers,
+                        UX/UI Designers, and Human Factors Engineers.
+                        Set the tone and direction for staff and helped foster a
+                        culture of continuous learning and improvement.
+                        Created and managed the Mile Two Internship Program for
+                        four years, providing thirty two interns with an opportunity
+                        to work on cross-functional teams to design and build
+                        internal R&D software applications.
+                        Committed to improving diversity and inclusion efforts at
+                        the company, setting and exceeding a goal of hiring 50% of
+                        our interns from under-represented groups in technology.
                         `}
                     />
 
@@ -119,9 +130,10 @@ const resume = () => {
     department, teaching an evening programming course one night a
     week. Instructed students from a wide range of backgrounds,
     ages, and skill levels. Courses taught include Introduction to
-    Problem Solving and Computer Programming (C++), Web Development
-    with HTML and CSS, C++ Software Development, and Java Software
-    Development. Volunteered to assist extracurricular hackathon
+    Problem Solving and Computer Programming (C++), Data Analytics with Python,
+    Web Development with HTML and CSS, C++ Software Development,
+    and Java Software Development.
+    Volunteered to assist extracurricular hackathon
     teams and served on the Software Engineering Advisory Board,
     helping set the direction for curriculum and program updates.
                         `}
@@ -238,6 +250,33 @@ const resume = () => {
     Developed and maintained corporate intranet site.
                         `}
                     />
+                </section>
+
+                <section className="Resume__community">
+                    <h2>Community</h2>
+                    <div>
+                        <h3>Dayton Data Visualization</h3>
+                        <h4>2014-2018</h4>
+                        <p>
+                            I founded and ran the Dayton Data Visualization meetup group
+                            to gather Dayton area experts to network and share knowledge.
+                            I organized the quarterly meetups, built and maintained the website,
+                            and managed the mailing list. The group grew to over 300 members
+                            and we were able to host a number of great speakers on a wide
+                            variety of topics.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Code for Dayton</h3>
+                        <h4>2016-2018</h4>
+                        <p>
+                            I was on the leadership team for Code for Dayton, the Dayton area
+                            Code for America brigade. I organized and led development projects
+                            for the Dayton Regional Transit Authority and Five Rivers MetroParks.
+                            I also organized and led several events and workshops for the Dayton
+                            tech community.
+                        </p>
+                    </div>
                 </section>
 
                 <section className="Resume__education">
