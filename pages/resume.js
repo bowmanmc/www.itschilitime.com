@@ -17,38 +17,31 @@ const resume = () => {
                 <section className="Resume__summary">
                     <h2>Summary</h2>
                     <p>
-                        I am an experienced engineering manager,
-                        technical team lead, application architect,
-                        fullstack software engineer, and educator from Dayton, Ohio, with
-                        expertise in delivering web-based data visualization
-                        applications to a wide variety of commercial and
-                        government clients. I’m passionate about growing
-                        high performing engineering teams to enable companies to deliver
-                        the applications of the future.
+                        I am an experienced engineering manager, technical team lead,
+                        application architect, fullstack software engineer, and educator
+                        from Dayton, Ohio, with expertise in delivering web-based data
+                        visualization applications to a wide variety of commercial and
+                        government clients. I am passionate about growing high performing
+                        engineering teams and working with them to unlock their potential
+                        to build maintainable software applications that delight end-users.
                     </p>
                     <p>
                         For the last four years, I’ve worked at Mile Two, a young custom software
-                        design and development company.
-                        Currently, I am responsible for recruiting, leading, and mentoring
-                        a staff of over twenty five, overseeing the execution of
-                        ten project teams totaling over $5m in revenue.
+                        design and development company. Currently, I am responsible for recruiting,
+                        leading, and mentoring an engineering staff of over twenty five,
+                        and overseeing the execution of ten project teams totaling over $5m in revenue.
                     </p>
                     <p>
-                        To help facilitate Mile Two’s rapid growth,
-                        I created the Mile Two Internship Program, building it over the last four years
-                        into one of the top internship programs in the Dayton area.
-                        I set up the program so that our interns work on a cross-functional team,
-                        participating in the full Software Development Life Cycle while building an internal
-                        R&amp;D application alongside our experienced staff.
-                        To date, we’ve brought thirty two interns through the program and offering full time
-                        positions to nineteen of them.
+                        To help facilitate Mile Two’s rapid growth, I created the Mile Two Internship Program,
+                        building it up over the last four years into one of the top internship programs
+                        in the Dayton area. To date, we’ve brought thirty two interns through the program
+                        and offered full time positions to nineteen of them.
                     </p>
                     <p>
-                        Since 2014 I have taught evening Computer Science
-                        courses at Sinclair Community College. I love helping students
-                        take their first steps towards a career in computer programming
-                        and am excited to see them entering the workforce
-                        (and have even had the pleasure of hiring a few of them).
+                        Since 2014 I have taught evening Computer Science courses at Sinclair Community College.
+                        I love helping students take their first steps towards a career in computer programming
+                        and am excited to see them entering the workforce (and have even had the pleasure of
+                        hiring a few of them).
                     </p>
                 </section>
 
@@ -77,6 +70,7 @@ const resume = () => {
                             <li>Jest</li>
                             <li>Node.js</li>
                             <li>Docker</li>
+                            <li>AWS</li>
                         </ul>
                     </div>
 
@@ -101,22 +95,20 @@ const resume = () => {
                         start="September 2017"
                         end="Present"
                         description={`
-                        Helped grow the company from a rag-tag team of eight into an
-                        organization of over one hundred and twenty people.
+                        Helped grow the company from a rag-tag team of eight
+                        into an organization of over one hundred and twenty people.
                         Led a portfolio consisting of over ten project teams working on
                         various commercial and government contracts totaling over $5m in revenue.
-                        Managed a portfolio team consisting of over twenty staff members
-                        of varying roles including Project Leads, Software Engineers,
-                        UX/UI Designers, and Human Factors Engineers.
-                        Set the tone and direction for staff and helped foster a
-                        culture of continuous learning and improvement.
-                        Created and managed the Mile Two Internship Program for
-                        four years, providing thirty two interns with an opportunity
-                        to work on cross-functional teams to design and build
-                        internal R&D software applications.
-                        Committed to improving diversity and inclusion efforts at
-                        the company, setting and exceeding a goal of hiring 50% of
-                        our interns from under-represented groups in technology.
+                        Managed a portfolio team consisting of over twenty staff members of
+                        varying roles including Project Leads, Software Engineers, UX/UI Designers,
+                        and Human Factors Engineers. Set the tone and direction for the
+                        engineering staff and helped foster a culture of continuous learning
+                        and improvement. Created and managed the Mile Two Internship Program,
+                        providing thirty two interns with an opportunity to work on cross-functional
+                        teams to design and build internal R&D software applications alongside
+                        our experienced staff. Committed to improving diversity and inclusion
+                        efforts at the company, setting and exceeding a goal of hiring 50%
+                        of our interns from under-represented groups in technology.
                         `}
                     />
 
