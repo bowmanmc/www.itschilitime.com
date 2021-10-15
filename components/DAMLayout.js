@@ -9,7 +9,7 @@ const DAMLayout = ({ children, meta, playlists }) => {
     return (
         <>
             <Meta
-                title={`Chilitime Design : ${meta.title}`}
+                title={`${meta.title}`}
                 url={`https://www.itschilitime.com/${meta.path}`}
                 image={meta.cover}
                 description={meta.description}
