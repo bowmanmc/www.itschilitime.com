@@ -8,7 +8,7 @@ const PostLayout = ({ children, meta}) => {
     return (
         <>
             <Meta
-                title={`Chilitime Design : ${meta.title}`}
+                title={`${meta.title} (A Post by Michael Bowman)`}
                 url={`https://www.itschilitime.com/${meta.path}`}
                 image={meta.cover}
                 description={meta.description}
