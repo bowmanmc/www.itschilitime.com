@@ -17,10 +17,10 @@ const resume = () => {
                 <section className="Resume__summary">
                     <h2>Summary</h2>
                     <p>
-                        I am an experienced engineering manager, technical team lead, application architect, fullstack software engineer, and educator from Dayton, Ohio, with expertise in delivering web-based data visualization applications to a wide variety of commercial and government clients. I am passionate about growing high performing engineering teams and working with them to unlock their potential to build maintainable software applications that delight end-users.
+                        I am an engineering manager with over twenty years of experience as a technical team lead, application architect, fullstack software engineer, and educator from Dayton, Ohio, with expertise in delivering web-based data visualization applications to a wide variety of commercial and government clients. I am passionate about growing high performing engineering teams and working with them to unlock their potential to build maintainable software applications that delight end-users.
                     </p>
                     <p>
-                        For the past four years, I’ve been at Mile Two, a young custom software design and development company, working with the founders to build out and grow a world class engineering team. I’ve been responsible for recruiting, hiring, leading, managing, and coaching a group of nearly sixty software engineers with diverse backgrounds and experience levels to perform at their best and collaborate as a team to deliver exceptional value for Mile Two’s clients.
+                        For the past four years, I’ve been at Mile Two, a young custom software design and development company, working to build out and grow a world class engineering team. I’ve been responsible for recruiting, hiring, leading, managing, and coaching a group of nearly sixty software engineers with diverse backgrounds and experience levels to perform at their best and collaborate as a team to deliver exceptional value for Mile Two’s clients.
                     </p>
                     <p>
                         To help facilitate Mile Two’s rapid growth, I created the Mile Two Internship Program, building it up over the last four years into one of the top internship programs in the Dayton area. To date, we’ve brought thirty two interns through the program and offered full time positions to nineteen of them.
