@@ -20,12 +20,6 @@ const resume = () => {
                         I am an engineering manager with over twenty years of experience as a technical team lead, application architect, fullstack software engineer, and educator from Dayton, Ohio, with expertise in delivering web-based data visualization applications to a wide variety of commercial and government clients. I am passionate about growing high performing engineering teams and working with them to unlock their potential to build maintainable software applications that delight end-users.
                     </p>
                     <p>
-                        For the past four years, I’ve been at Mile Two, a young custom software design and development company, working to build out and grow a world class engineering team. I’ve been responsible for recruiting, hiring, leading, managing, and coaching a group of nearly sixty software engineers with diverse backgrounds and experience levels to perform at their best and collaborate as a team to deliver exceptional value for Mile Two’s clients.
-                    </p>
-                    <p>
-                        To help facilitate Mile Two’s rapid growth, I created the Mile Two Internship Program, building it up over the last four years into one of the top internship programs in the Dayton area. To date, we’ve brought thirty two interns through the program and offered full time positions to nineteen of them.
-                    </p>
-                    <p>
                         Since 2014 I have taught evening Computer Science courses at Sinclair Community College. I love helping students take their first steps towards a career in computer programming and am excited to see them entering the workforce (and have even had the pleasure of hiring a few of them).
                     </p>
                 </section>
@@ -74,21 +68,18 @@ const resume = () => {
 
                 <section className="Resume__experience">
                     <h2>Experience</h2>
+
                     <ResumeExperience
-                        company="Mile Two"
-                        title="Portfolio Director"
-                        start="September 2017"
+                        company="National Public Radio (NPR)"
+                        title="Engineering Manager"
+                        start="January 2022"
                         end="Present">
                         <p>
-                            Provided empathetic, enthusiastic leadership while helping grow the company from a small team of eight into a mature organization of over one hundred and twenty people. I managed ten project teams, consisting of over twenty staff members of varying roles and levels, totaling over $5m in revenue. I was responsible for managing the portfolio financials, budgets and projections, roadmap and vision, and business development activities. I coordinated with the other portfolios to adapt to changing customer and business priorities, ensuring our project teams were positioned well to deliver high quality custom applications to our customers.
-                        </p>
-                        <p>
-                            As Director of Engineering I set the tone and direction for the engineering staff and helped foster a culture of continuous learning and improvement. I managed the training budget and programs for over forty people, aligning the career goals of our software engineers with the strategic growth goals of the company (encouraging folks to take an interest and train in areas such as Data Science, AI/ML, and DevOps). Ensured project teams were following industry best practices and encouraging standardization across the organization on tools, frameworks, and development platforms.
-                        </p>
-                        <p>
-                            I also created and managed the Mile Two Internship Program, providing thirty two interns with an opportunity to work on cross-functional teams to design and build internal R&D software applications alongside our experienced staff. I am committed to improving diversity and inclusion efforts at the company, setting and exceeding a goal of hiring 50% of our interns from under-represented groups in technology.
+                            Engineering Manager for the Voice Platform team.
+                            <em> Alexa, Play NPR!</em>
                         </p>
                     </ResumeExperience>
+
 
                     <ResumeExperience
                         company="Sinclair Community College"
@@ -106,6 +97,22 @@ const resume = () => {
                             Volunteered to assist extracurricular hackathon
                             teams and served on the Software Engineering Advisory Board,
                             helping set the direction for curriculum and program updates.
+                        </p>
+                    </ResumeExperience>
+
+                    <ResumeExperience
+                        company="Mile Two"
+                        title="Portfolio Director"
+                        start="September 2017"
+                        end="December 2021">
+                        <p>
+                            Provided empathetic, enthusiastic leadership while helping grow the company from a small team of eight into a mature organization of over one hundred and twenty people. I managed ten project teams, consisting of over twenty staff members of varying roles and levels, totaling over $5m in revenue. I was responsible for managing the portfolio financials, budgets and projections, roadmap and vision, and business development activities. I coordinated with the other portfolios to adapt to changing customer and business priorities, ensuring our project teams were positioned well to deliver high quality custom applications to our customers.
+                        </p>
+                        <p>
+                            As Director of Engineering I set the tone and direction for the engineering staff and helped foster a culture of continuous learning and improvement. I managed the training budget and programs for over forty people, aligning the career goals of our software engineers with the strategic growth goals of the company (encouraging folks to take an interest and train in areas such as Data Science, AI/ML, and DevOps). Ensured project teams were following industry best practices and encouraging standardization across the organization on tools, frameworks, and development platforms.
+                        </p>
+                        <p>
+                            I also created and managed the Mile Two Internship Program, providing thirty two interns with an opportunity to work on cross-functional teams to design and build internal R&D software applications alongside our experienced staff. I am committed to improving diversity and inclusion efforts at the company, setting and exceeding a goal of hiring 50% of our interns from under-represented groups in technology.
                         </p>
                     </ResumeExperience>
 
