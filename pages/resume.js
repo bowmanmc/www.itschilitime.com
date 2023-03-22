@@ -16,12 +16,11 @@ const resume = () => {
             <div className="Resume">
                 <section className="Resume__summary">
                     <h2>Summary</h2>
-                    <p>
-                        I am an engineering manager with over twenty years of experience as a technical team lead, application architect, fullstack software engineer, and educator from Dayton, Ohio, with expertise in delivering web-based data visualization applications to a wide variety of commercial and government clients. I am passionate about growing high performing engineering teams and working with them to unlock their potential to build maintainable software applications that delight end-users.
-                    </p>
-                    <p>
-                        Since 2014 I have taught evening Computer Science courses at Sinclair Community College. I love helping students take their first steps towards a career in computer programming and am excited to see them entering the workforce (and have even had the pleasure of hiring a few of them).
-                    </p>
+                    <p>👋 Hello there! I am an engineering manager with over twenty years of experience as a technical team lead, application architect, fullstack software engineer, and educator from Dayton, Ohio, with expertise in delivering web-based applications to a wide variety of commercial and government clients. I am passionate about growing high performing engineering teams and working with them to unlock their potential to build maintainable software applications that delight end-users.</p>
+
+                    <p>Since 2014 I have taught evening Computer Science courses at Sinclair Community College. I love helping students take their first steps towards a career in computer programming and am excited to see them entering the workforce (and have even had the pleasure of hiring a few of them).</p>
+
+                    <p>I would love to chat with you further about my career of leading teams, coaching Software Engineers, Technical Leads, and Engineering Managers, and architecting, building, delivering, and maintaining high-traffic, scalable software applications.</p>
                 </section>
 
                 <section className="Resume__skills">
@@ -74,10 +73,12 @@ const resume = () => {
                         title="Engineering Manager"
                         start="January 2022"
                         end="Present">
-                        <p>
-                            Engineering Manager for the Voice Platform team.
-                            <em> Alexa, Play NPR!</em>
+                        <p>I was brought on at NPR to build out a new Voice & Emerging Platforms team, organizing a disparate set of one-off applications built by former NPR staff and third-party developers under a single group. Responsible for the technical delivery of the Alexa and Google Voice Assistant applications, serving up over 4 million hours of content to 1.5 million listeners each week. Led the standardization of the team’s agile software development processes, implementation of structured logging, metrics, and monitoring tools, and the modernization our build and deploy pipelines. Worked with the product team and other stakeholders to prioritize bug fixing, feature development, and new application development against team capacity and (often) conflicting stakeholder goals. Worked with management and executives to help them understand the current device/platform landscape, the potential reach for each, and where we should focus our efforts to have the largest impact. </p>
+                        <p>The team’s biggest success last year was driving a 300% increase in our listener hours KPI for Alexa.
+                            You can read more about it
+                            on <a href="https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2023/02/npr-alexa-routines-kit-february-2023.html">Amazon's Alexa Developer Blog</a>.
                         </p>
+                        <p>But by far the best part of my work at NPR has been being able to coach and mentor a smaller team of delightful software engineers, building up our team into a group of proactive communicators who write stable, maintainable, clean-coded, and well-documented software applications 🙌</p>
                     </ResumeExperience>
 
 
@@ -92,7 +93,7 @@ const resume = () => {
                             week. Instructed students from a wide range of backgrounds,
                             ages, and skill levels. Courses taught include Introduction to
                             Problem Solving and Computer Programming (C++), Data Analytics with Python,
-                            Web Development with HTML and CSS, C++ Software Development,
+                            Web Development with HTML and CSS, Website Development with PHP, C++ Software Development,
                             and Java Software Development.
                             Volunteered to assist extracurricular hackathon
                             teams and served on the Software Engineering Advisory Board,
@@ -105,15 +106,9 @@ const resume = () => {
                         title="Portfolio Director"
                         start="September 2017"
                         end="December 2021">
-                        <p>
-                            Provided empathetic, enthusiastic leadership while helping grow the company from a small team of eight into a mature organization of over one hundred and twenty people. I managed ten project teams, consisting of over twenty staff members of varying roles and levels, totaling over $5m in revenue. I was responsible for managing the portfolio financials, budgets and projections, roadmap and vision, and business development activities. I coordinated with the other portfolios to adapt to changing customer and business priorities, ensuring our project teams were positioned well to deliver high quality custom applications to our customers.
-                        </p>
-                        <p>
-                            As Director of Engineering I set the tone and direction for the engineering staff and helped foster a culture of continuous learning and improvement. I managed the training budget and programs for over forty people, aligning the career goals of our software engineers with the strategic growth goals of the company (encouraging folks to take an interest and train in areas such as Data Science, AI/ML, and DevOps). Ensured project teams were following industry best practices and encouraging standardization across the organization on tools, frameworks, and development platforms.
-                        </p>
-                        <p>
-                            I also created and managed the Mile Two Internship Program, providing thirty two interns with an opportunity to work on cross-functional teams to design and build internal R&D software applications alongside our experienced staff. I am committed to improving diversity and inclusion efforts at the company, setting and exceeding a goal of hiring 50% of our interns from under-represented groups in technology.
-                        </p>
+                        <p>Provided empathetic, enthusiastic leadership while helping grow the company from a small team of eight into a mature organization of over one hundred and twenty people. As Director of Engineering I set the tone and direction for the engineering staff and helped foster a culture of continuous learning and improvement. I managed the training budget and programs for over forty people, aligning the career goals of our software engineers with the strategic growth goals of the company (encouraging folks to take an interest and train in areas such as Data Science, AI/ML, and DevOps). Mentored engineering managers and technical leads on approaches to developing their projects and teams, as well as their own careers. Led the engineering team in following industry best practices and encouraging standardization across the organization on tools, frameworks, and development platforms, ensuring our project teams were positioned well to deliver high quality custom applications to our customers.</p>
+
+                        <p>I also created and managed the Mile Two Internship Program, providing thirty two interns with an opportunity to work on cross-functional teams to design and build internal R&D software applications alongside our experienced staff. We were able to offer twenty three of them full time positions with the company. I am committed to improving diversity and inclusion efforts at the company, setting and exceeding a goal of hiring 50% of our interns from under-represented groups in technology.</p>
                     </ResumeExperience>
 
                     <ResumeExperience
@@ -132,7 +127,7 @@ const resume = () => {
                         start="February 2011"
                         end="January 2014">
                         <p>
-                            Lead software developer for NGA Innovision’s GIAT Research and Development lab at NASIC. Led an agile, ten-person team responsible for the rapid prototyping of software to provide new capabilities for use across the intelligence community. Performed a wide variety of software development tasks, from gathering, mining, and warehousing extremely large datasets to designing and developing forward-looking user interfaces using front-end web technologies.
+                            Lead Software Engineer for NGA Innovision’s GIAT Research and Development lab at NASIC. Led an agile, ten-person team responsible for the rapid prototyping of software to provide new capabilities for use across the intelligence community. Performed a wide variety of software development tasks, from gathering, mining, and warehousing extremely large datasets to designing and developing forward-looking user interfaces using front-end web technologies.
                         </p>
                     </ResumeExperience>
 
