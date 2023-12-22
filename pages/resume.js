@@ -27,12 +27,12 @@ const resume = () => {
                     <div>
                         <h2>Skills</h2>
                         <ul>
-                            <li>Engineering Management</li>
-                            <li>Project Management</li>
                             <li>Technical Leadership</li>
-                            <li>Data Visualization</li>
-                            <li>Geospatial Application Development</li>
+                            <li>Engineering Management</li>
+                            <li>Coaching &amp; Mentorship</li>
+                            <li>Project Management</li>
                             <li>Software Architecture</li>
+                            <li>Data Visualization</li>
                             <li>Web Application Development</li>
                         </ul>
                     </div>
@@ -42,10 +42,8 @@ const resume = () => {
                         <ul>
                             <li>Next.js</li>
                             <li>React</li>
-                            <li>Vue</li>
                             <li>D3.js</li>
                             <li>SVG</li>
-                            <li>Jest</li>
                             <li>Node.js</li>
                             <li>Docker</li>
                             <li>AWS</li>
@@ -69,16 +67,25 @@ const resume = () => {
                     <h2>Experience</h2>
 
                     <ResumeExperience
+                        company="Kroger"
+                        title="Senior Engineering Manager"
+                        start="May 2023"
+                        end="Present">
+                        <p>Currently, I’m the Senior Engineering Manager for the UI/UX team on the Next Generation Point of Sale program. I am responsible for the technical implementation and delivery of user interface components for the new staffed-lane, self-checkout, and other point of sale applications coming to stores near you in 2025.</p>
+                        <p>I manage a globally distributed team of thirty software and quality assurance engineers divided between two front-end web teams, a mobile team, and an API team. The team is a mix of Kroger employees and contractors from three different companies including onshore and offshore folks.</p>
+                        <p>I coordinate with the Product and Design teams to help define the what and why and then work with my tech leads and software engineers to come up with a roadmap for how we will achieve the program’s goals.</p>
+                        <p>I work with six other workstream Engineering Managers in the program to coordinate delivery and manage dependencies between teams, as well as integrate with multiple microservices, applications, and hardware devices.</p>
+                    </ResumeExperience>
+
+                    <ResumeExperience
                         company="National Public Radio (NPR)"
                         title="Engineering Manager"
                         start="January 2022"
-                        end="Present">
-                        <p>I was brought on at NPR to build out a new Voice & Emerging Platforms team, organizing a disparate set of one-off applications built by former NPR staff and third-party developers under a single group. Responsible for the technical delivery of the Alexa and Google Voice Assistant applications, serving up over 4 million hours of content to 1.5 million listeners each week. Led the standardization of the team’s agile software development processes, implementation of structured logging, metrics, and monitoring tools, and the modernization our build and deploy pipelines. Worked with the product team and other stakeholders to prioritize bug fixing, feature development, and new application development against team capacity and (often) conflicting stakeholder goals. Worked with management and executives to help them understand the current device/platform landscape, the potential reach for each, and where we should focus our efforts to have the largest impact. </p>
-                        <p>The team’s biggest success last year was driving a 300% increase in our listener hours KPI for Alexa.
-                            You can read more about it
-                            on <a href="https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2023/02/npr-alexa-routines-kit-february-2023.html">Amazon's Alexa Developer Blog</a>.
-                        </p>
-                        <p>But by far the best part of my work at NPR has been being able to coach and mentor a smaller team of delightful software engineers, building up our team into a group of proactive communicators who write stable, maintainable, clean-coded, and well-documented software applications 🙌</p>
+                        end="May 2023">
+                        <p>Built out a new Voice & Emerging Platforms team, organizing a disparate set of one-off applications built by former NPR staff and third-party developers under a single group.</p>
+                        <p>Responsible for the technical delivery of the Alexa and Google Voice Assistant applications, serving up over 4 million hours of content to 1.5 million listeners each week. Alexa, play NPR!</p>
+                        <p>Worked with both internal and external stakeholders to prioritize bug fixing, feature development, and new application development against team capacity and (often) conflicting goals. Managed technical relationships between NPR and platform partners such as Amazon and Google.</p>
+                        <p>Developed a data-driven team culture, helping to focus our engineering efforts leading to a 300% increase in our listener hours KPI for Alexa in 2022.</p>
                     </ResumeExperience>
 
 
@@ -103,12 +110,23 @@ const resume = () => {
 
                     <ResumeExperience
                         company="Mile Two"
-                        title="Portfolio Director"
+                        title="Director of Engineering"
                         start="September 2017"
                         end="December 2021">
-                        <p>Provided empathetic, enthusiastic leadership while helping grow the company from a small team of eight into a mature organization of over one hundred and twenty people. As Director of Engineering I set the tone and direction for the engineering staff and helped foster a culture of continuous learning and improvement. I managed the training budget and programs for over forty people, aligning the career goals of our software engineers with the strategic growth goals of the company (encouraging folks to take an interest and train in areas such as Data Science, AI/ML, and DevOps). Mentored engineering managers and technical leads on approaches to developing their projects and teams, as well as their own careers. Led the engineering team in following industry best practices and encouraging standardization across the organization on tools, frameworks, and development platforms, ensuring our project teams were positioned well to deliver high quality custom applications to our customers.</p>
-
-                        <p>I also created and managed the Mile Two Internship Program, providing thirty two interns with an opportunity to work on cross-functional teams to design and build internal R&D software applications alongside our experienced staff. We were able to offer twenty three of them full time positions with the company. I am committed to improving diversity and inclusion efforts at the company, setting and exceeding a goal of hiring 50% of our interns from under-represented groups in technology.</p>
+                        <p>Helped grow the company from a small team of eight into a mature organization of over one hundred
+                            and twenty people. I set the tone and direction for the engineering staff and helped foster an inclusive
+                            culture of continuous learning and improvement.</p>
+                        <p>Mentored engineering managers and technical leads on approaches to developing their projects and
+                            teams, as well as their own careers. Led the engineering team in adopting industry best practices and
+                            encouraging standardization across the organization on tools, frameworks, and development platforms,
+                            ensuring our project teams were positioned well to deliver high quality custom applications to our customers.</p>
+                        <p>Managed the training budget and programs for over forty people, aligning the career goals of our
+                            software engineers with the strategic growth goals of the company (encouraging folks to take an interest
+                            and train in areas such as Data Science, AI/ML, and DevOps).</p>
+                        <p>Created and managed the Mile Two Internship Program, providing thirty two interns with an
+                            opportunity to work on cross-functional teams to design and build internal R&D software applications
+                            alongside our experienced staff. Improved diversity and inclusion efforts at the company, setting and
+                            exceeding a goal of hiring 50% of our interns from under-represented groups in technology.</p>
                     </ResumeExperience>
 
                     <ResumeExperience
@@ -116,9 +134,8 @@ const resume = () => {
                         title="Principal Software Engineer"
                         start="January 2014"
                         end="September 2017">
-                        <p>
-                            Technical Team Lead and Principal Software Engineer for several contracts for the National Geospatial-Intelligence Agency (NGA) and the National Air and Space Intelligence Center (NASIC) developing web-based mapping and data visualization applications for intelligence analysts. Worked closely with end users to understand their job functions and needs first, then built tools to help distill a large amount of complex data into a useful format and answer key intelligence questions.
-                        </p>
+                        <p>Technical Team Lead and Principal Software Engineer for several contracts for the National Geospatial-Intelligence Agency (NGA) and the National Air and Space Intelligence Center (NASIC), developing web-based mapping and data visualization applications for intelligence analysts.</p>
+                        <p>Worked closely with end users to understand their job functions and needs first, then built custom applications, dashboards, and tools to help distill a large amount of complex data into a useful format and answer key intelligence questions.</p>
                     </ResumeExperience>
 
                     <ResumeExperience
