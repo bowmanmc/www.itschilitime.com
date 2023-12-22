@@ -4,7 +4,7 @@ const IndexHeader = () => {
     return (
         <header className="IndexHeader">
             <div className="IndexHeader__profile">
-                <img src="/assets/michael-2023.jpg" alt="Michael Bowman"/>
+                <img src="/assets/michael-2023-2.jpg" alt="Michael Bowman"/>
             </div>
 
             <div className="IndexHeader__tagline">
