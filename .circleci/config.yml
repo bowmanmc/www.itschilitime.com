@@ -25,13 +25,10 @@ jobs:
               - out
     deploy:
         docker:
-        - image: circleci/python:3.6.3
+        - image: circleci/aws-cli@5.2.0
         steps:
         - attach_workspace:
               at: ./
-        - run:
-              name: Install AWS CLI
-              command: sudo pip install awscli
         - run:
               name: Upload to s3
               command: ~/.local/bin/aws s3 sync ./out s3://$S3_BUCKET_NAME/ --delete --acl public-read
