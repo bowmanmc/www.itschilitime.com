@@ -1,15 +1,5 @@
 version: 2.1
 
-workflows:
-    build-deploy:
-    jobs:
-        - build
-        - deploy:
-            requires:
-            - build
-            filters:
-            branches:
-                only: main
 jobs:
     build:
         docker:
@@ -48,3 +38,13 @@ jobs:
         - run:
               name: Invalidate Cloudfront Cache
               command: ~/.local/bin/aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths "/*"
+workflows:
+    build-deploy:
+    jobs:
+        - build
+        - deploy:
+            requires:
+            - build
+            filters:
+              branches:
+                only: main
