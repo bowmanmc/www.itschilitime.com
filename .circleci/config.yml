@@ -12,7 +12,6 @@ workflows:
                 only: main
 jobs:
     build:
-        <<: *defaults
         docker:
         - image: cimg/node:14.14
         steps:
