@@ -35,9 +35,8 @@ jobs:
               paths:
               - out
     deploy:
-        <<: *defaults
         docker:
-        - image: circleci/python:3.6.3
+        - image: cimg/python:3.13.2
         steps:
         - attach_workspace:
               at: ./
