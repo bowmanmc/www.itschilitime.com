@@ -48,6 +48,8 @@ workflows:
           branches:
             only: main
       - deploy:
+        requires:
+        - build
         filters:
           branches:
             only: main
