@@ -1,8 +1,15 @@
-defaults: &defaults
-    working_directory: ~/repo
+version: 2.1
 
-version: 2
-
+workflows:
+    build-deploy:
+    jobs:
+        - build
+        - deploy:
+            requires:
+            - build
+            filters:
+            branches:
+                only: main
 jobs:
     build:
         <<: *defaults
@@ -36,21 +43,10 @@ jobs:
               at: ./
         - run:
               name: Install AWS CLI
-              command: pip install awscli --upgrade --user
+              command: sudo pip install awscli
         - run:
               name: Upload to s3
               command: ~/.local/bin/aws s3 sync ./out s3://$S3_BUCKET_NAME/ --delete --acl public-read
         - run:
               name: Invalidate Cloudfront Cache
               command: ~/.local/bin/aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths "/*"
-workflows:
-    version: 2
-    change-release:
-        jobs:
-        - build
-        - deploy:
-              requires:
-              - build
-              filters:
-                  branches:
-                      only: main
