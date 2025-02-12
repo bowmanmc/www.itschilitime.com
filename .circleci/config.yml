@@ -43,13 +43,10 @@ workflows:
   version: 2
   build-deploy:
     jobs:
-      - build:
-        filters:
-          branches:
-            only: main
+      - build
       - deploy:
-        requires:
-        - build
-        filters:
-          branches:
-            only: main
+          requires: 
+          - build
+          filters:
+            branches:
+                  only: main
