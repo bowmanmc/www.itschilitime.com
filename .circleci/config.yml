@@ -38,6 +38,7 @@ jobs:
         - run:
               name: Invalidate Cloudfront Cache
               command: ~/.local/bin/aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths "/*"
+
 workflows:
     build-deploy:
     jobs:
@@ -46,5 +47,5 @@ workflows:
             requires:
             - build
             filters:
-              branches:
+            branches:
                 only: main
