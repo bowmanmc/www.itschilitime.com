@@ -25,7 +25,7 @@ jobs:
               - out
     deploy:
         docker:
-        - image: circleci/aws-cli@5.2.0
+        - image: cimg/aws:2025.01
         steps:
         - attach_workspace:
               at: ./
