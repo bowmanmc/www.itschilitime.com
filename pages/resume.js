@@ -16,7 +16,8 @@ const resume = () => {
             <div className="Resume">
                 <section className="Resume__summary">
                     <h2>Summary</h2>
-                    <p>👋 Hello there! I am an engineering manager with over twenty years of experience as a technical team lead, application architect, fullstack software engineer, and educator from Dayton, Ohio, with expertise in delivering web-based applications to a wide variety of commercial and government clients. I am passionate about growing high performing engineering teams and working with them to unlock their potential to build maintainable software applications that delight end-users.</p>
+
+                    <p>👋 Hello there! I’m an empathetic, enthusiastic technical leader with over twenty years of experience as an engineering manager, technical team lead, application architect, and full-stack software engineer. I am passionate about growing high performing engineering teams and working with them to unlock their potential to build maintainable software applications that scale well and delight end users. </p>
 
                     <p>Since 2014 I have taught evening Computer Science courses at Sinclair Community College. I love helping students take their first steps towards a career in computer programming and am excited to see them entering the workforce (and have even had the pleasure of hiring a few of them).</p>
 
@@ -27,11 +28,11 @@ const resume = () => {
                     <div>
                         <h2>Skills</h2>
                         <ul>
-                            <li>Technical Leadership</li>
                             <li>Engineering Management</li>
+                            <li>Team Leadership</li>
                             <li>Coaching &amp; Mentorship</li>
-                            <li>Project Management</li>
                             <li>Software Architecture</li>
+                            <li>Agile Software Development</li>
                             <li>Data Visualization</li>
                             <li>Web Application Development</li>
                         </ul>
@@ -67,27 +68,18 @@ const resume = () => {
                     <h2>Experience</h2>
 
                     <ResumeExperience
-                        company="Kroger"
-                        title="Senior Engineering Manager"
-                        start="May 2023"
+                        company="Internal Revenue Service (IRS)"
+                        title="Senior Engineering Lead"
+                        start="July 2024"
                         end="Present">
-                        <p>Currently, I’m the Senior Engineering Manager for the UI/UX team on the Next Generation Point of Sale program. I am responsible for the technical implementation and delivery of user interface components for the new staffed-lane, self-checkout, and other point of sale applications coming to stores near you in 2025.</p>
-                        <p>I manage a globally distributed team of thirty software and quality assurance engineers divided between two front-end web teams, a mobile team, and an API team. The team is a mix of Kroger employees and contractors from three different companies including onshore and offshore folks.</p>
-                        <p>I coordinate with the Product and Design teams to help define the what and why and then work with my tech leads and software engineers to come up with a roadmap for how we will achieve the program’s goals.</p>
-                        <p>I work with six other workstream Engineering Managers in the program to coordinate delivery and manage dependencies between teams, as well as integrate with multiple microservices, applications, and hardware devices.</p>
+                        <p>Currently, I am the Senior Engineering Lead for the IRS working on Direct File, a free, accessible, and easy to use web application for filing your federal taxes. For 2025 we matured our engineering processes, doubled our tax scope, and had the application available in both English and Spanish for over forty million taxpayers in twenty five states on day one of the 2025 tax filing season, despite an uncertain and chaotic political environment. </p>
+                        <p>I managed three distributed teams consisting of eighteen engineers to expand the tax scope for the 2025 tax filing season while coordinating with our Product, Design, and Delivery teams to mature our tech stack and software development processes.</p>
+                        <p>Managed the engineering roadmap to expand the tax scope to support an estimated forty million eligible taxpayers in twenty five states.</p>
+                        <p>Coordinated with the content, legal, and translation teams to ensure all text in the application was approved, translated, imported, tested, and available to taxpayers in both English and Spanish for the tax filing season.</p>
+                        <p>Coordinated with our product, test, and engineering teams to help organize several IRS-wide Bug Bashes to run nearly two hundred tax scenarios through end-to-end manual testing to help ensure the application was bug free, easy to use, and ready for taxpayers.</p>
+                        <p>I joined the IRS via the United States Digital Service, an executive agency that recruits industry professionals for short-term work on critical government services.</p>
+                        <p><strong>Tech Stack: </strong>React, TypeScript, Docker, AWS</p>
                     </ResumeExperience>
-
-                    <ResumeExperience
-                        company="National Public Radio (NPR)"
-                        title="Engineering Manager"
-                        start="January 2022"
-                        end="May 2023">
-                        <p>Built out a new Voice & Emerging Platforms team, organizing a disparate set of one-off applications built by former NPR staff and third-party developers under a single group.</p>
-                        <p>Responsible for the technical delivery of the Alexa and Google Voice Assistant applications, serving up over 4 million hours of content to 1.5 million listeners each week. Alexa, play NPR!</p>
-                        <p>Worked with both internal and external stakeholders to prioritize bug fixing, feature development, and new application development against team capacity and (often) conflicting goals. Managed technical relationships between NPR and platform partners such as Amazon and Google.</p>
-                        <p>Developed a data-driven team culture, helping to focus our engineering efforts leading to a 300% increase in our listener hours KPI for Alexa in 2022.</p>
-                    </ResumeExperience>
-
 
                     <ResumeExperience
                         company="Sinclair Community College"
@@ -101,11 +93,35 @@ const resume = () => {
                             ages, and skill levels. Courses taught include Introduction to
                             Problem Solving and Computer Programming (C++), Data Analytics with Python,
                             Web Development with HTML and CSS, Website Development with PHP, C++ Software Development,
-                            and Java Software Development.
+                            Data Structures &amp; Algorithms, and Java Software Development.
                             Volunteered to assist extracurricular hackathon
                             teams and served on the Software Engineering Advisory Board,
                             helping set the direction for curriculum and program updates.
                         </p>
+                    </ResumeExperience>
+
+                    <ResumeExperience
+                        company="Kroger"
+                        title="Senior Engineering Manager"
+                        start="May 2023"
+                        end="July 2024">
+                        <p>I was the Senior Engineering Manager for the UI/UX team on the Next Generation Point of Sale program, a huge multi-year initiative to bring the Kroger point of sale applications (staffed lane, self-checkout, customer service desk, fuel center) in-house, providing more frequent updates, greater customization, better observability and metrics, and increased speed, usability, and overall ease of use for associates and customers.</p>
+                        <p>Managed a globally distributed team of thirty software and quality assurance engineers divided between two front-end web teams, a mobile team, and an API team. The team was a mix of Kroger employees and contractors from three different companies including onshore and offshore folks.</p>
+                        <p>Coordinated with the Product and Design teams to help define the what and why and worked with my tech leads and team to come up with a roadmap for how we would achieve the programs goals.</p>
+                        <p>Coordinated with other Engineering Managers in the program to integrate with multiple microservices, applications, and hardware devices.</p>
+                        <p><strong>Tech Stack: </strong>React, TypeScript, Hardware Integration, Docker</p>
+                    </ResumeExperience>
+
+                    <ResumeExperience
+                        company="National Public Radio (NPR)"
+                        title="Engineering Manager"
+                        start="January 2022"
+                        end="May 2023">
+                        <p>Built out a new Voice & Emerging Platforms team, organizing a disparate set of one-off applications built by former NPR staff and third-party developers under a single group.</p>
+                        <p>Responsible for the technical delivery of the Alexa and Google Voice Assistant applications, serving up over 4 million hours of content to 1.5 million listeners each week. Alexa, play NPR!</p>
+                        <p>Worked with both internal and external stakeholders to prioritize bug fixing, feature development, and new application development against team capacity and (often) conflicting goals. Managed technical relationships between NPR and platform partners such as Amazon and Google.</p>
+                        <p>Developed a data-driven team culture, helping to focus our engineering efforts leading to a 300% increase in our listener hours KPI for Alexa in 2022.</p>
+                        <p><strong>Tech Stack: </strong>TypeScript, Node.js, Alexa Skills Kit SDK, Next.js, AWS</p>
                     </ResumeExperience>
 
                     <ResumeExperience
@@ -127,6 +143,7 @@ const resume = () => {
                             opportunity to work on cross-functional teams to design and build internal R&D software applications
                             alongside our experienced staff. Improved diversity and inclusion efforts at the company, setting and
                             exceeding a goal of hiring 50% of our interns from under-represented groups in technology.</p>
+                        <p><strong>Tech Stack: </strong>React, Next.js, JavaScript, Node.js, Docker</p>
                     </ResumeExperience>
 
                     <ResumeExperience
