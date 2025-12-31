@@ -1,0 +1,118 @@
+.header {
+    --stripe1: var(--color-green1);
+    --stripe2: var(--color-green2);
+    --stripe3: var(--color-green3);
+    --headerbg: var(--color-white);
+
+    align-items: center;
+    background: var(--headerbg);
+    background-image: linear-gradient(90deg,
+            var(--headerbg) 33%,
+            var(--stripe1) 33%,
+            var(--stripe1) 40%,
+            var(--stripe2) 40%,
+            var(--stripe2) 59%,
+            var(--stripe3) 59%,
+            var(--stripe3) 66%,
+            var(--headerbg) 66%,
+            var(--headerbg) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.0em;
+
+    /* Desktop Overrides */
+    @media (min-width: 1024px) {
+        background-image: linear-gradient(45deg,
+                var(--headerbg) 33%,
+                var(--stripe1) 33%,
+                var(--stripe1) 40%,
+                var(--stripe2) 40%,
+                var(--stripe2) 59%,
+                var(--stripe3) 59%,
+                var(--stripe3) 66%,
+                var(--headerbg) 66%,
+                var(--headerbg) 100%);
+        flex-direction: row;
+    }
+}
+
+.headshot {
+    display: block;
+    flex-direction: column;
+    padding: 0.5em;
+    text-align: center;
+    width: 100%;
+
+    img {
+        border: 0.66em solid var(--stripe2);
+        box-sizing: border-box;
+        border-radius: 50%;
+        display: block;
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        max-height: 100%;
+        max-width: 256px;
+        min-width: 128px;
+    }
+
+    /* Desktop Overrides */
+    @media (min-width: 1024px) {
+        width: 33%;
+
+        img {
+            max-width: 512px;
+            min-width: 256px;
+        }
+    }
+}
+
+.tagline {
+    color: var(--color-gray-30);
+    flex: 1;
+    font-family: var(--fontstack-heading);
+    font-weight: var(--fontweight-bold);
+    font-size: var(--fontsize-xl);
+    line-height: calc(var(--fontsize-xl) * var(--lineheight));
+    padding: 1.0em;
+
+    p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    span {
+        background: var(--color-white);
+    }
+
+    svg {
+        fill: var(--color-gray-10);
+        height: var(--fontsize-xl);
+        width: var(--fontsize-xl);
+    }
+
+    /* Desktop Overrides */
+    @media (min-width: 1024px) {
+        font-size: var(--fontsize-xxl);
+        line-height: calc(var(--fontsize-xxl) * var(--lineheight));
+        width: 66%;
+
+        p {
+            text-align: left;
+        }
+
+        svg {
+            height: var(--fontsize-xxl);
+            width: var(--fontsize-xxl);
+        }
+    }
+}
+
+.highlight {
+    color: var(--color-gray-10);
+    text-transform: uppercase;
+}
+

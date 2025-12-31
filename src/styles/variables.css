@@ -1,0 +1,53 @@
+@import url("https://use.typekit.net/dvm5agk.css");
+
+:root {
+    /* Theme Colors */
+    --color-blue-dark: #13212a;
+    --color-blue: #233D4D;
+    --color-blue-light: #5985A8;
+    --color-blue2: #65B4C2;
+    --color-green1: #1AE90C;
+    --color-green2: #03B909;
+    --color-green3: #A6FE08;
+
+    --color-white: #ffffff;
+    --color-gray-98: #f3f3f3;
+    --color-gray-90: #e3e3e3;
+    --color-gray-80: #cccccc;
+    --color-gray-60: #999999;
+    --color-gray-50: #808080;
+    --color-gray-40: #696969;
+    --color-gray-30: #4d4d4d;
+    --color-gray-10: #171717;
+    --color-black: #000000;
+
+    --color-bg: var(--color-gray-90);
+    --color-txt: var(--color-gray-20);
+    --color-primary: var(--color-green2);
+    --color-alt: var(--color-blue2);
+    
+    --color-link-alt: var(--color-blue2);
+    --color-link-alt-hover: #8ac6d0;
+
+
+    /* Typography */
+    --csstricks-mono: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
+    --system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    --fontstack-mono: var(--csstricks-mono);
+    --fontstack-body: var(--system);
+    --fontstack-heading: franklin-gothic-urw, sans-serif;
+
+    --fontweight-normal: 400;
+    --fontweight-bold: 900;
+
+    --fontsize-xs: 12px;
+    --fontsize-small: 14px;
+    --fontsize-normal: 18px;
+    --fontsize-large: 24px;
+    --fontsize-xl: 48px;
+    --fontsize-xxl: 72px;
+
+    --lineheight: 1.35;
+
+}

@@ -1,0 +1,51 @@
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--fontstack-body);
+  font-size: var(--fontsize-normal);
+  line-height: var(--lineheight);
+  word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--fontstack-heading);
+  font-weight: var(--fontweight-bold);
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: var(--fontsize-xxl);
+  line-height: calc(var(--fontsize-xxl) * var(--lineheight));
+}
+
+h2 {
+  font-size: var(--fontsize-xl);
+  line-height: calc(var(--fontsize-xl) * var(--lineheight));
+}
+
+h3 {
+  font-size: var(--fontsize-large);
+  line-height: calc(var(--fontsize-large) * var(--lineheight));
+}
+
+h4, h5, h6 {
+  font-size: var(--fontsize-normal);
+  line-height: calc(var(--fontsize-normal) * var(--lineheight));
+}
+
