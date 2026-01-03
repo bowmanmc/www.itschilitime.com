@@ -1,0 +1,39 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+
+    /* Desktop Overrides */
+    @media (min-width: 1024px) {
+        flex-direction: row;
+    }
+
+    h2 {
+        font-size: var(--fontsize-large);
+        line-height: calc(var(--fontsize-large) * var(--lineheight));
+    }
+
+    li {
+        list-style: none;
+        margin-bottom: 0.35em;
+    }
+
+    li:last-child {
+        margin-bottom: 0;
+    }
+
+    section {
+        flex: 1;
+        margin-top: 1.35em;
+        padding-right: 1.5em;
+
+        /* Desktop Overrides */
+        @media (min-width: 1024px) {
+            margin-top: 0;
+        }
+    }
+
+    section:first-child {
+        margin-top: 0;
+    }
+}

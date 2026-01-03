@@ -3,7 +3,7 @@
     color: var(--color-gray-98);
     display: flex;
     flex-direction: column;
-    font-size: var(--fontsize-medium);
+    font-size: var(--fontsize-normal);
     padding: 1.0em;
 
     /* Desktop Overrides */
